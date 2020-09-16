@@ -1,4 +1,22 @@
 $hauteur: 100px;
 #header {
-  height: $hauteur;
+    height: $hauteur;
+}
+
+#page1 {
+    p {
+        font-size: 13px;
+    }
+    img {
+        border: 0;
+    }
+    .sectionA {
+        font-size: 14px;
+    }
+}
+
+#page2 {
+    p {
+        font-size: 24px;
+    }
 }

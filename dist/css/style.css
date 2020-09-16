@@ -1,2 +1,14 @@
 #header {
   height: 100px; }
+
+#page1 p {
+  font-size: 13px; }
+
+#page1 img {
+  border: 0; }
+
+#page1 .sectionA {
+  font-size: 14px; }
+
+#page2 p {
+  font-size: 24px; }
