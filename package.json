@@ -1,0 +1,25 @@
+{
+  "name": "bioferme",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000B\u0000i\u0000o\u0000F\u0000e\u0000r\u0000m\u0000e\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siri7u/BioFerme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siri7u/BioFerme/issues"
+  },
+  "homepage": "https://github.com/siri7u/BioFerme#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  }
+}
