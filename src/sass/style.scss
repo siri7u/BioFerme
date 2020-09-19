@@ -1,6 +1,9 @@
+@import "variables";
 $hauteur: 100px;
+$couleur: red;
 #header {
     height: $hauteur;
+    color: $couleur;
 }
 
 #page1 {

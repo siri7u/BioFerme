@@ -17,4 +17,10 @@ function css(cb) {
         .pipe(sass().on('error', sass.logError))
         .pipe(dest('./dist/css'));
 };
-exports.default = css
+
+function copiehtml(cb) {
+    return src('./src/html/index.html')
+        .pipe(dest('./dist'));
+}
+
+exports.default = parallel(css, copiehtml);
